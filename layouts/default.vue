@@ -1,8 +1,10 @@
 <template>
-  <main>
-    <transition name="fade">
-      <Nuxt />
-    </transition>
+  <main class="app">
+    <div class="app__content">
+      <transition name="fade">
+        <Nuxt />
+      </transition>
+    </div>
   </main>
 </template>
 
@@ -10,7 +12,20 @@
 export default {}
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background: $app-bg-color;
+  color: $light;
+
+  &__content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: $width-app;
+  }
+}
+
 .slide-enter-active,
 .slide-leave-active {
   transition: all 0.5s;

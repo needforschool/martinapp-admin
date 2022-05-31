@@ -6,7 +6,13 @@
 
 <script>
 export default {
-  name: 'IndexPage',
-  layout: 'default',
+  name: "IndexPage",
+  // layout: "default",
 }
 </script>
+
+<style lang="scss">
+h1 {
+  margin: 0;
+}
+</style>

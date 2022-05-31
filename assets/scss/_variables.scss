@@ -1,6 +1,10 @@
 /**
  * Colors
  */
+
+ $app-bg-color: radial-gradient(34.4% 108.72% at 74.64% 76.94%, #0096C7 0%, #023E8A 100%);
+ $light: #fafafa;
+ $dark: #222;
  
  /**
    * Padding
@@ -16,7 +20,7 @@
  /**
    * Other
    */
-   
+
  $width-app: 1440px;
  $rad: 5px;
  $trans: all 0.3s;
