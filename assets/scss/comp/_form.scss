@@ -1,0 +1,11 @@
+form {
+  .form-group {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      width: 100%;
+      color: $grey;
+    }
+  }
+}
