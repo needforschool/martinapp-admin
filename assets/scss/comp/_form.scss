@@ -2,10 +2,43 @@ form {
   .form-group {
     display: flex;
     flex-direction: column;
+    width: 100%;
 
     label {
       width: 100%;
       color: $grey;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+
+    input {
+      width: 100%;
+      border: 1px solid $grey;
+      border-radius: $rad;
+      padding: $pad-xs;
+      margin-bottom: $pad-s;
+      background-color: transparent;
+      border: 1px solid #9b9db1;
+      color: $light;
+      transition: all 0.3s ease-in-out;
+
+      &::placeholder {
+        color: $grey;
+      }
+
+      &:focus,
+      &:hover,
+      &:active {
+        outline: none;
+        background-image: none;
+        background-color: transparent;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        background-color: transparent;
+        border-color: $grey;
+        border: 1px solid $purple;
+      }
     }
   }
 }

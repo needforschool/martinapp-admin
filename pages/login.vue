@@ -23,7 +23,7 @@
             placeholder="Mot de passe"
           />
         </div>
-        <button type="submit" class="btn btn-primary">Connexion</button>
+        <ButtonRegular text="Connexion" />
       </form>
     </div>
   </div>
@@ -55,11 +55,9 @@ export default {
 
   &--card {
     width: 90%;
-    height: 600px;
 
     @include min-lg {
       width: 40%;
-      height: 700px;
     }
   }
 }
