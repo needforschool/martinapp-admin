@@ -16,7 +16,7 @@ export default {}
 .app {
   width: 100%;
   min-height: 100vh;
-  background: $app-bg-color;
+  background-image: url("~/assets/svg/bg.svg");
   color: $light;
 
   &__content {
