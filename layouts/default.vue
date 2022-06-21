@@ -14,15 +14,15 @@ export default {}
 
 <style lang="scss">
 .app {
-  width: 100%;
-  min-height: 100vh;
-  background-image: url("~/assets/svg/bg.svg");
-  color: $light;
+  /* width: 100%; */
+  /* min-height: 100vh; */
+  /* background-image: url("~/assets/svg/bg.svg"); */
+  /* color: $light; */
 
   &__content {
-    margin: 0 auto;
-    width: 100%;
-    max-width: $width-app;
+    /* margin: 0 auto; */
+    /* width: 100%; */
+    /* max-width: $width-app; */
   }
 }
 
