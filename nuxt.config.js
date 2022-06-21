@@ -36,13 +36,16 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxtjs/dotenv", "@nuxtjs/style-resources"],
+  buildModules: [
+    "@nuxtjs/dotenv",
+    "@nuxtjs/style-resources",
+    "@nuxtjs/tailwindcss",
+  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
-    "@nuxtjs/tailwindcss",
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -57,4 +60,5 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  devServerHandlers: [],
 }
