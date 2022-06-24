@@ -23,30 +23,30 @@
       >
         <div class="max-w-xl text-center sm:text-left">
           <h1 class="text-3xl font-extrabold sm:text-5xl">
-            Vous avez trouvé
+            Gerez vos clients
             <strong class="font-extrabold text-indigo-700 sm:block">
-              Forever Home.
+              COMME EN 2050
             </strong>
           </h1>
 
           <p class="max-w-lg mt-4 sm:leading-relaxed sm:text-xl">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
+            Bienvenue sur la MACRON'APP, l'application préféré des
+            <span class="line-through">voleurs</span> banquiers.
           </p>
 
           <div class="flex flex-wrap gap-4 mt-8 text-center">
-            <a
+            <nuxt-link
               class="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-indigo-600 sm:w-auto active:bg-indigo-500 hover:bg-indigo-700 focus:outline-none focus:ring"
-              href="/get-started"
+              to="login"
             >
-              Get Started
-            </a>
+              Se connecter
+            </nuxt-link>
 
             <a
               class="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-indigo-600 sm:w-auto hover:text-indigo-700 active:text-indigo-500 focus:outline-none focus:ring"
               href="/about"
             >
-              Learn More
+              En savoir plus
             </a>
           </div>
         </div>
@@ -60,10 +60,10 @@
             href=""
             class="relative block p-8 pb-24 border-t-4 border-indigo-600 rounded-sm shadow-xl m-3 my-10"
           >
-            <h5 class="text-4xl font-bold">100+</h5>
+            <h5 class="text-4xl font-bold">+37</h5>
             <p class="mt-4 text-lg font-medium text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, provident.
+              Gerez plus de 37 clients en simultanés grace à notre nouveau
+              dashboard !
             </p>
 
             <span class="absolute bottom-8 right-8">
@@ -91,10 +91,10 @@
             href=""
             class="relative block p-8 pb-24 border-t-4 border-indigo-600 rounded-sm shadow-xl m-3 my-10"
           >
-            <h5 class="text-4xl font-bold">100+</h5>
+            <h5 class="text-4xl font-bold">-10s</h5>
             <p class="mt-4 text-lg font-medium text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, provident.
+              une connexion et un chargement toujours plus rapide grace au
+              technologie utilisé
             </p>
 
             <span class="absolute bottom-8 right-8">
@@ -122,10 +122,9 @@
             href=""
             class="relative block p-8 pb-24 border-t-4 border-indigo-600 rounded-sm shadow-xl m-3 my-10"
           >
-            <h5 class="text-4xl font-bold">100+</h5>
+            <h5 class="text-4xl font-bold">100€</h5>
             <p class="mt-4 text-lg font-medium text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, provident.
+              Gagnez de l'argent facilement tout les jours en vous connectant 💰
             </p>
 
             <span class="absolute bottom-8 right-8">
@@ -152,44 +151,46 @@
       <section class="text-white bg-indigo-600">
         <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div class="max-w-xl">
-            <h2 class="text-4xl font-bold sm:text-6xl">An amazing year</h2>
+            <h2 class="text-4xl font-bold sm:text-6xl">
+              Une année incroyable !
+            </h2>
 
             <p class="mt-4 sm:text-xl">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
-              tempore beatae facilis dignissimos rem praesentium officia
-              obcaecati quisquam iure recusandae!
+              L'année 2021 s'est terminée d'une façon incroyable pour tout
+              l'équipe de la MACRON'APP ! La société a été introduite en bourse
+              en Suisse, en Andorre et au Luxembourg.
             </p>
           </div>
 
           <ul class="grid grid-cols-1 gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3">
             <li class="p-8 shadow-xl rounded-xl">
-              <p class="text-3xl font-extrabold">50</p>
-              <p class="mt-1 text-xl font-medium">Websites live</p>
+              <p class="text-3xl font-extrabold">42</p>
+              <p class="mt-1 text-xl font-medium">Banques en France</p>
             </li>
 
             <li class="p-8 shadow-xl rounded-xl">
-              <p class="text-3xl font-extrabold">190k+</p>
-              <p class="mt-1 text-xl font-medium">Impressions</p>
+              <p class="text-3xl font-extrabold">+190K€</p>
+              <p class="mt-1 text-xl font-medium">Argent volé</p>
             </li>
 
             <li class="p-8 shadow-xl rounded-xl">
-              <p class="text-3xl font-extrabold">$150k+</p>
-              <p class="mt-1 text-xl font-medium">Client profits</p>
+              <p class="text-3xl font-extrabold">20+</p>
+              <p class="mt-1 text-xl font-medium">Rolex</p>
             </li>
 
             <li class="p-8 shadow-xl rounded-xl">
-              <p class="text-3xl font-extrabold">10</p>
-              <p class="mt-1 text-xl font-medium">New staff</p>
+              <p class="text-3xl font-extrabold">+83</p>
+              <p class="mt-1 text-xl font-medium">Recrutements par an</p>
             </li>
 
             <li class="p-8 shadow-xl rounded-xl">
               <p class="text-3xl font-extrabold">1</p>
-              <p class="mt-1 text-xl font-medium">New office</p>
+              <p class="mt-1 text-xl font-medium">Enquetes judiciaires</p>
             </li>
 
             <li class="p-8 shadow-xl rounded-xl">
               <p class="text-3xl font-extrabold">6</p>
-              <p class="mt-1 text-xl font-medium">New tech stacks</p>
+              <p class="mt-1 text-xl font-medium">Tentative de fraudes</p>
             </li>
           </ul>
         </div>
@@ -210,20 +211,21 @@
             </div>
 
             <div class="lg:py-24">
-              <h2 class="text-3xl font-bold sm:text-4xl">Grow your audience</h2>
+              <h2 class="text-3xl font-bold sm:text-4xl">
+                Augmentation de votre capital
+              </h2>
 
               <p class="mt-4 text-gray-600">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                qui hic atque tenetur quis eius quos ea neque sunt, accusantium
-                soluta minus veniam tempora deserunt? Molestiae eius quidem quam
-                repellat.
+                Grace à notre application, nos placements, et votre confiance,
+                nous pouvons vous prommettre une augmentation de 69% avec un
+                taux d'interêt de 17 ! (record en France)
               </p>
 
-              <a
+              <nuxt-link
                 class="inline-flex items-center px-8 py-3 mt-8 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
-                href="/get-started"
+                to="login"
               >
-                <span class="text-sm font-medium"> Get Started </span>
+                <span class="text-sm font-medium"> Commencer ! </span>
 
                 <svg
                   class="w-5 h-5 ml-3"
@@ -239,7 +241,7 @@
                     d="M17 8l4 4m0 0l-4 4m4-4H3"
                   />
                 </svg>
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>

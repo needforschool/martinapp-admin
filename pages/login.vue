@@ -146,21 +146,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss">
-.login {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh; */
-
-  /* &--card {
-    width: 90%;
-
-    @include min-lg {
-      width: 40%;
-    }
-  } */
-}
-</style>
