@@ -30,11 +30,13 @@
     <section class="relative flex flex-wrap lg:h-screen lg:items-center">
       <div class="w-full px-4 py-12 lg:w-1/2 sm:px-6 lg:px-8 sm:py-16 lg:py-24">
         <div class="max-w-lg mx-auto text-center">
-          <h1 class="text-2xl font-bold sm:text-3xl text-indigo-700">Connexion à votre espace !</h1>
+          <h1 class="text-2xl font-bold sm:text-3xl text-indigo-700">
+            Connexion à votre espace !
+          </h1>
 
           <p class="mt-4 text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
-            eaque error neque ipsa culpa autem, at itaque nostrum!
+            Et gerez ensuite tout vos clients grâce à notre nouvelle interface
+            revolutionnaire et facile d'utilisation
           </p>
         </div>
 
@@ -46,7 +48,7 @@
               <input
                 type="email"
                 class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
-                placeholder="Enter email"
+                placeholder="Entrez votre email"
               />
 
               <span class="absolute inset-y-0 inline-flex items-center right-4">
@@ -69,12 +71,12 @@
           </div>
 
           <div>
-            <label for="password" class="sr-only">Password</label>
+            <label for="password" class="sr-only">Mot de passe</label>
             <div class="relative">
               <input
                 type="password"
                 class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
-                placeholder="Enter password"
+                placeholder="Entrez votre mot de passe"
               />
 
               <span class="absolute inset-y-0 inline-flex items-center right-4">
@@ -104,15 +106,15 @@
 
           <div class="flex items-center justify-between">
             <p class="text-sm text-gray-500">
-              No account?
-              <a class="underline" href="">Sign up</a>
+              Pas encore de compte ?
+              <a class="underline" href="">S'inscrire</a>
             </p>
 
             <button
               type="submit"
               class="inline-block px-5 py-3 ml-3 text-sm font-medium text-white bg-indigo-700 rounded-lg hover:bg-indigo-800"
             >
-              Sign in
+              Connexion
             </button>
           </div>
         </form>
