@@ -18,7 +18,7 @@
           >
             <nuxt-link
               class="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-indigo-600 sm:w-auto hover:text-indigo-700 active:text-indigo-500 focus:outline-none focus:ring"
-              to="index"
+              to="/"
             >
               Retour
             </nuxt-link>
