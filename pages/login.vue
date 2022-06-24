@@ -40,15 +40,20 @@
           </p>
         </div>
 
-        <form action="" class="max-w-md mx-auto mt-8 mb-0 space-y-4">
+        <form
+          class="max-w-md mx-auto mt-8 mb-0 space-y-4"
+          @submit.prevent="login"
+        >
           <div>
             <label for="email" class="sr-only">Email</label>
 
             <div class="relative">
               <input
                 type="email"
+                v-model="email"
                 class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
                 placeholder="Entrez votre email"
+                autocomplete="off"
               />
 
               <span class="absolute inset-y-0 inline-flex items-center right-4">
@@ -77,6 +82,8 @@
                 type="password"
                 class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
                 placeholder="Entrez votre mot de passe"
+                v-model="password"
+                autocomplete="off"
               />
 
               <span class="absolute inset-y-0 inline-flex items-center right-4">
@@ -103,6 +110,8 @@
               </span>
             </div>
           </div>
+
+          <p v-if="error" class="text-red-600">Erreur de connexion</p>
 
           <div class="flex items-center justify-between">
             <p class="text-sm text-gray-500">
@@ -135,13 +144,21 @@
 export default {
   data() {
     return {
-      email: "",
-      password: "",
+      email: "manu.brigitte@argent.com",
+      password: "12345",
+      error: false,
     }
   },
   methods: {
     login() {
-      console.log(this.email, this.password)
+      if (
+        this.email === "manu.brigitte@argent.com" &&
+        this.password === "12345"
+      ) {
+        this.$router.push("dashboard")
+      } else {
+        this.error = true
+      }
     },
   },
 }
