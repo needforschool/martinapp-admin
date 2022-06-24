@@ -26,7 +26,7 @@
         </div>
       </div>
     </header>
-    <div class="space-y-4">
+    <div class="space-y-4 m-10">
       <details class="group">
         <summary
           class="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-gray-50"
