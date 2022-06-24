@@ -42,12 +42,12 @@
               Se connecter
             </nuxt-link>
 
-            <a
+            <nuxt-link
               class="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-indigo-600 sm:w-auto hover:text-indigo-700 active:text-indigo-500 focus:outline-none focus:ring"
-              href="/about"
+              to="about"
             >
               En savoir plus
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -248,105 +248,107 @@
       </section>
     </div>
     <div class="max-w-5xl px-4 py-8 mx-auto">
-  <section class="p-8 bg-gray-100 rounded-lg">
-    <div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
-      <div class="relative">
-        <div class="aspect-w-1 aspect-h-1">
-          <img
-            src="https://www.hyperui.dev/photos/man-5.jpeg"
-            alt=""
-            class="object-cover rounded-lg"
-          />
+      <section class="p-8 bg-gray-100 rounded-lg">
+        <div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
+          <div class="relative">
+            <div class="aspect-w-1 aspect-h-1">
+              <img
+                src="https://www.hyperui.dev/photos/man-5.jpeg"
+                alt=""
+                class="object-cover rounded-lg"
+              />
+            </div>
+
+            <div
+              class="absolute inline-flex px-4 py-2 bg-white rounded-lg shadow-xl -bottom-4 -right-4"
+            >
+              <span
+                class="inline-block w-12 h-10 bg-gray-100 rounded-lg"
+              ></span>
+            </div>
+          </div>
+
+          <blockquote class="sm:col-span-2">
+            <p class="text-xl font-medium sm:text-2xl">
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              perspiciatis cumque neque ut nobis excepturi, quasi iure quisquam
+              autem alias."
+            </p>
+
+            <cite class="inline-flex items-center mt-8 not-italic">
+              <span class="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
+              <p class="text-sm text-gray-500 uppercase sm:ml-3">
+                <strong>Titi</strong>, CEO MACRON APP.
+              </p>
+            </cite>
+          </blockquote>
         </div>
-
-        <div
-          class="absolute inline-flex px-4 py-2 bg-white rounded-lg shadow-xl -bottom-4 -right-4"
-        >
-          <span class="inline-block w-12 h-10 bg-gray-100 rounded-lg"></span>
-        </div>
-      </div>
-
-      <blockquote class="sm:col-span-2">
-        <p class="text-xl font-medium sm:text-2xl">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-          perspiciatis cumque neque ut nobis excepturi, quasi iure quisquam
-          autem alias."
-        </p>
-
-        <cite class="inline-flex items-center mt-8 not-italic">
-          <span class="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
-          <p class="text-sm text-gray-500 uppercase sm:ml-3">
-            <strong>Titi</strong>, CEO MACRON APP.
-          </p>
-        </cite>
-      </blockquote>
-    </div>
-  </section>
+      </section>
     </div>
     <div class="space-y-4 m-10">
-  <details class="group" open>
-    <summary
-      class="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-gray-50"
-    >
-      <h5 class="font-medium text-gray-900">
-        Lorem ipsum dolor sit amet consectetur adipisicing?
-      </h5>
+      <details class="group" open>
+        <summary
+          class="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-gray-50"
+        >
+          <h5 class="font-medium text-gray-900">
+            Lorem ipsum dolor sit amet consectetur adipisicing?
+          </h5>
 
-      <svg
-        class="flex-shrink-0 ml-1.5 w-5 h-5 transition duration-300 group-open:-rotate-180"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M19 9l-7 7-7-7"
-        />
-      </svg>
-    </summary>
+          <svg
+            class="flex-shrink-0 ml-1.5 w-5 h-5 transition duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </summary>
 
-    <p class="px-4 mt-4 leading-relaxed text-gray-700">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
-      molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
-      voluptate dicta quo officiis explicabo consequuntur distinctio corporis
-      earum similique!
-    </p>
-  </details>
+        <p class="px-4 mt-4 leading-relaxed text-gray-700">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+          veritatis molestias culpa in, recusandae laboriosam neque aliquid
+          libero nesciunt voluptate dicta quo officiis explicabo consequuntur
+          distinctio corporis earum similique!
+        </p>
+      </details>
 
-  <details class="group">
-    <summary
-      class="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-gray-50"
-    >
-      <h5 class="font-medium text-gray-900">
-        Lorem ipsum dolor sit amet consectetur adipisicing?
-      </h5>
+      <details class="group">
+        <summary
+          class="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-gray-50"
+        >
+          <h5 class="font-medium text-gray-900">
+            Lorem ipsum dolor sit amet consectetur adipisicing?
+          </h5>
 
-      <svg
-        class="flex-shrink-0 ml-1.5 w-5 h-5 transition duration-300 group-open:-rotate-180"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M19 9l-7 7-7-7"
-        />
-      </svg>
-    </summary>
+          <svg
+            class="flex-shrink-0 ml-1.5 w-5 h-5 transition duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </summary>
 
-    <p class="px-4 mt-4 leading-relaxed text-gray-700">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
-      molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
-      voluptate dicta quo officiis explicabo consequuntur distinctio corporis
-      earum similique!
-    </p>
-  </details>
+        <p class="px-4 mt-4 leading-relaxed text-gray-700">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+          veritatis molestias culpa in, recusandae laboriosam neque aliquid
+          libero nesciunt voluptate dicta quo officiis explicabo consequuntur
+          distinctio corporis earum similique!
+        </p>
+      </details>
     </div>
     <div>
       <footer class="bg-gray-50">
